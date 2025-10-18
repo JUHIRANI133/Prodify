@@ -69,7 +69,7 @@ const ContributionGrid = () => {
     <div className="flex flex-col items-center">
       <div className="flex justify-start w-full text-xs text-muted-foreground mb-1" style={{gridColumn: 'span 53'}}>
         {monthLabels.map(({name, weekIndex}) => (
-          <div key={name} style={{minWidth: `${(4/53)*100}%`, transform: `translateX(${weekIndex * 14.5}px)`}} className="absolute -translate-x-1/2">
+          <div key={`${name}-${weekIndex}`} style={{minWidth: `${(4/53)*100}%`, transform: `translateX(${weekIndex * 14.5}px)`}} className="absolute -translate-x-1/2">
             {name}
           </div>
         ))}
