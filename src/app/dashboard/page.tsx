@@ -62,6 +62,11 @@ export default function DashboardPage() {
 
   return (
     <div className="space-y-6">
+      <div>
+        <h1 className="text-3xl font-bold font-headline">Welcome to Prodify</h1>
+        <p className="text-muted-foreground">Here's a snapshot of your productivity today.</p>
+      </div>
+
        <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
          <Card className="lg:col-span-3">
            <CardHeader>
