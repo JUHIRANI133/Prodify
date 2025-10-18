@@ -5,6 +5,60 @@
       "description": "An anime character at a desk, studying or working.",
       "imageUrl": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxhbmltZSUyMGlsbHVzdHJhdGlvbnxlbnwwfHx8fDE3NjA3NTczNDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "anime illustration"
+    },
+    {
+      "id": "eat-that-frog-book-cover",
+      "description": "Book cover for Eat That Frog!",
+      "imageUrl": "https://images.unsplash.com/photo-1545006398-2cf47cd87b90?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxib29rJTIwY292ZXIlMjBmcm9nfGVufDB8fHx8MTc2MDc1ODI2N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "book cover frog"
+    },
+    {
+      "id": "7-habits-book-cover",
+      "description": "Book cover for The 7 Habits of Highly Effective People",
+      "imageUrl": "https://images.unsplash.com/photo-1671345495299-020b03c27915?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxib29rJTIwY292ZXIlMjB0cmVlfGVufDB8fHx8MTc2MDc1ODI2N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "book cover tree"
+    },
+    {
+      "id": "gtd-book-cover",
+      "description": "Book cover for Getting Things Done",
+      "imageUrl": "https://images.unsplash.com/photo-1732714403349-05fc43b67042?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxib29rJTIwY292ZXIlMjBhYnN0cmFjdHxlbnwwfHx8fDE3NjA3NTgyNjd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "book cover abstract"
+    },
+    {
+      "id": "pomodoro-technique-book-cover",
+      "description": "Book cover for The Pomodoro Technique",
+      "imageUrl": "https://images.unsplash.com/photo-1707857639854-9244d7300269?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxib29rJTIwY292ZXIlMjB0b21hdG98ZW58MHx8fHwxNzYwNzU4MjY3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "book cover tomato"
+    },
+    {
+      "id": "deep-work-book-cover",
+      "description": "Book cover for Deep Work",
+      "imageUrl": "https://images.unsplash.com/photo-1642642992827-a6b2dce64e20?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxib29rJTIwY292ZXIlMjB3YXRlcnxlbnwwfHx8fDE3NjA3NTgyNjd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "book cover water"
+    },
+    {
+      "id": "flow-book-cover",
+      "description": "Book cover for Flow",
+      "imageUrl": "https://images.unsplash.com/photo-1628988253393-67a6293ea2f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxib29rJTIwY292ZXIlMjBmbG93fGVufDB8fHx8MTc2MDc1ODI2N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "book cover flow"
+    },
+    {
+      "id": "why-we-sleep-book-cover",
+      "description": "Book cover for Why We Sleep",
+      "imageUrl": "https://images.unsplash.com/photo-1506545896523-7d3de55c04da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxib29rJTIwY292ZXIlMjBzbGVlcHxlbnwwfHx8fDE3NjA3NTgyNjd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "book cover sleep"
+    },
+    {
+      "id": "power-of-habit-book-cover",
+      "description": "Book cover for The Power of Habit",
+      "imageUrl": "https://images.unsplash.com/photo-1579279263245-bbf82b50092f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxib29rJTIwY292ZXIlMjBnZWFyfGVufDB8fHx8MTc2MDc1ODI2N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "book cover gear"
+    },
+    {
+      "id": "atomic-habits-book-cover",
+      "description": "Book cover for Atomic Habits",
+      "imageUrl": "https://images.unsplash.com/photo-1611601005136-5697aee04805?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxib29rJTIwY292ZXIlMjBhdG9tfGVufDB8fHx8MTc2MDc1ODI2N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "book cover atom"
     }
   ]
 }

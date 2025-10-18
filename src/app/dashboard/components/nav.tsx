@@ -19,12 +19,12 @@ import {
 
 const menuItems = [
   { href: '/dashboard/profile', label: 'Profile', icon: User },
-  { href: '/dashboard#tracker', label: 'Productivity Tracker', icon: TrendingUp },
-  { href: '/dashboard#techniques', label: 'Techniques', icon: Lightbulb },
-  { href: '/dashboard#books', label: 'Books', icon: BookOpen },
-  { href: '/dashboard#tasks', label: 'Tasks', icon: CheckSquare },
-  { href: '/dashboard#history', label: 'History', icon: History },
-  { href: '/dashboard#settings', label: 'Settings', icon: Settings },
+  { href: '/dashboard/tracker', label: 'Productivity Tracker', icon: TrendingUp },
+  { href: '/dashboard/techniques', label: 'Techniques', icon: Lightbulb },
+  { href: '/dashboard/books', label: 'Books', icon: BookOpen },
+  { href: '/dashboard/tasks', label: 'Tasks', icon: CheckSquare },
+  { href: '/dashboard/history', label: 'History', icon: History },
+  { href: '/dashboard/settings', label: 'Settings', icon: Settings },
 ];
 
 export function MainNav() {
