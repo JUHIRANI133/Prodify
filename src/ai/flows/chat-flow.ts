@@ -31,8 +31,6 @@ Your response:`,
       },
     });
 
-    return llmResponse.text();
+    return llmResponse.text;
   }
 );
-
-    
