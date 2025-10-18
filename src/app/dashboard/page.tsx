@@ -14,8 +14,8 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 import Image from 'next/image';
 import { Input } from '@/components/ui/input';
 import { Send } from 'lucide-react';
-import { ProgressRing } from '@/components/ui/progress-ring';
 import { chat } from '@/ai/flows/chat-flow';
+import { ContributionGrid } from './components/contribution-grid';
 
 type Message = {
   text: string;
@@ -62,26 +62,16 @@ export default function DashboardPage() {
 
   return (
     <div className="space-y-6">
-      <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
-        <Card className="lg:col-span-3">
-          <CardHeader>
-            <CardTitle className="font-headline">Prodify Dashboard</CardTitle>
-          </CardHeader>
-          <CardContent className="grid grid-cols-1 gap-6 md:grid-cols-2">
-            <div className="flex items-center justify-center gap-8">
-              <ProgressRing value={78} label="FlowState" />
-              <ProgressRing value={45} label="Healthy" size="sm" />
-            </div>
-            <div className="space-y-4 rounded-lg bg-muted p-4">
-               <h3 className="font-semibold">Insight</h3>
-               <p className="text-sm text-muted-foreground">
-                Based on your current Energy Curve, complex tasks are 15% more
-                likely to succeed before noon. Prioritize Task 1 now.
-              </p>
-            </div>
-          </CardContent>
-        </Card>
-      </div>
+       <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
+         <Card className="lg:col-span-3">
+           <CardHeader>
+             <CardTitle className="font-headline">Your Productivity</CardTitle>
+           </CardHeader>
+           <CardContent>
+             <ContributionGrid />
+           </CardContent>
+         </Card>
+       </div>
 
       <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
         <div className="space-y-6 lg:col-span-2">
@@ -205,5 +195,3 @@ export default function DashboardPage() {
     </div>
   );
 }
-
-    
